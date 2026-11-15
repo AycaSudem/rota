@@ -1,0 +1,73 @@
+{
+  "expo": {
+    "name": "Rota",
+    "slug": "rota-dehb",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#F3EFFF",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F3EFFF"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rota.dehb",
+      "infoPlist": {
+        "NSMotionUsageDescription": "Oturum sırasında yerinden kalktığını anlamak için adım sayarı kullanılır.",
+        "NSLocationWhenInUseUsageDescription": "Oturum başında çalışma yerini kaydetmek ve oradan ayrılınca sana sormak için konum kullanılır."
+      },
+      "buildNumber": "1"
+    },
+    "android": {
+      "package": "com.rota.dehb",
+      "adaptiveIcon": {
+        "backgroundColor": "#7B61FF",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "permissions": [
+        "android.permission.VIBRATE",
+        "android.permission.ACTIVITY_RECOGNITION",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION"
+      ],
+      "predictiveBackGestureEnabled": false,
+      "versionCode": 1,
+      "blockedPermissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-audio",
+        {
+          "microphonePermission": false
+        }
+      ],
+      "expo-notifications",
+      [
+        "expo-sensors",
+        {
+          "motionPermission": "Oturum sırasında yerinden kalktığını anlamak için adım sayarı kullanılır."
+        }
+      ],
+      "expo-font",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Oturum başında çalışma yerini kaydetmek ve oradan ayrılınca sana sormak için konum kullanılır."
+        }
+      ]
+    ]
+  }
+}

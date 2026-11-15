@@ -1,0 +1,21 @@
+Copyright (c) 2026 AycaSudem. Tüm hakları saklıdır.
+Copyright (c) 2026 AycaSudem. All rights reserved.
+
+Bu depodaki kaynak kod, tasarım, metinler ve görseller yalnızca incelenmek ve
+portfolyo amacıyla görüntülenmek üzere yayınlanmıştır. Sahibinin yazılı izni
+olmadan kopyalanamaz, değiştirilemez, dağıtılamaz, yayınlanamaz, alt
+lisanslanamaz, satılamaz ya da ticari veya ticari olmayan herhangi bir ürün
+veya hizmette kullanılamaz.
+
+The source code, design, text and images in this repository are published for
+review and portfolio viewing only. They may not be copied, modified,
+distributed, published, sublicensed, sold, or used in any commercial or
+non-commercial product or service without the prior written permission of
+the owner.
+
+Projede kullanılan üçüncü taraf açık kaynak kütüphaneler (React Native, Expo,
+Supabase istemcisi vb.) kendi lisansları altındadır.
+Third-party open-source libraries used by this project (React Native, Expo,
+the Supabase client, etc.) remain under their own licenses.
+
+İzin talepleri için GitHub üzerinden iletişime geçebilirsiniz: https://github.com/AycaSudem

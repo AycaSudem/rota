@@ -1,0 +1,10 @@
+{
+  "name": "screen-state",
+  "version": "1.0.0",
+  "description": "Ekran kapandı mı, yoksa başka uygulamaya mı geçildi?",
+  "main": "src/index.ts",
+  "license": "UNLICENSED",
+  "author": "AycaSudem",
+  "homepage": "https://expo.dev",
+  "private": true
+}
